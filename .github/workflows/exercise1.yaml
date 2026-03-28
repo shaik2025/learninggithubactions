@@ -11,4 +11,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: learning
-              run: "hello how are you"
+              run: echo "hello how are you"
