@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 name: exercise-3
 
@@ -12,3 +13,19 @@ jobs:
         steps:
             - name: ping test
               run: ping -c 4 google.com
+=======
+---
+name: exercise-3
+
+on:
+    push:
+        branches:
+            - dev
+        
+jobs:
+    exercie3:
+        runs-on: ubuntu-latest
+        steps:
+            - name: ping test
+              run: ping -c 4 google.com
+>>>>>>> 1a5934e78062c4ff2ed8929eb18db2e11b0e939f
